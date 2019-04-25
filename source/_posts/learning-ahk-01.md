@@ -1,7 +1,8 @@
 ---
 title: AHK 基础（一）
 date: 2018-07-06 09:44:52
-tags:
+tags: AHK
+categories: Programming Language
 ---
 
 ### 文字块

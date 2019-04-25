@@ -1,7 +1,8 @@
 ---
 title: Haskell 学习笔记一
 date: 2019-01-28 23:11:54
-tags:
+tags: Haskell
+categories: Programming Language
 ---
 
 1. 空字符串 `""` 与空列表 `[]` 同义：

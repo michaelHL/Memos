@@ -1,7 +1,10 @@
 ---
 title: PostgreSQL 学习笔记一
 date: 2019-01-23 10:17:21
-tags: SQL
+tags:
+   - SQL
+   - PostgreSQL
+categories: Database
 ---
 
 ## 安装 PostgreSQL
