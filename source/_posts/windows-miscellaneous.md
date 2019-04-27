@@ -29,3 +29,7 @@ categories: Notes
 1. cmd 终端中可运行两种命令：内部命令、外部命令，部分列举如下：
    - **Internal Commands**: `break`、`call`、`chcp`、`chdir(cd)`、`cls`、`copy`、`ctty`、`date`、`del(erase)`、`dir`、`echo`、`exit`、`for`、`goto`、`if`、`mkdir(md)`、`path`、`pause`、`prompt`、`rem`、`rename(ren)`、`rmdir(rd)`、``set``、`shift`、`time`、`type`、`ver`、`verify`、`vol`
    - **External Commands**: `append`、`assign`、`attrib`、`backup`、`chkdsk`、`command`、`comp`、`debug`、`diskcomp`、`diskcopy`、`doskey`、`dosshell`、`edit`、`edlin`、`emm386`、`exe2bin`、`expand`、`fastopen`、`fc`、`fdisk`、`format`、`graftable`、`graphics`、`help`、`join`、`keyb`、`label`、`mem`、`mirror`、`mode`、`more`、`nlsfunc`、`print`、`qbasic`、`recover`、`replace`, `restore`、`setver`、`share`、`sort`、`subst`、`sys`、`tree`、`undelete`、`unformat`、`xcopy`
+1. Windows 连接过的网络条目在注册表中位置：
+   ```
+   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles
+   ```
