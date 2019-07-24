@@ -13,7 +13,7 @@ categories: Programming Language
 ::lol:: laugh out loud{enter}
 ```
 
-那么对于多行文字块，需要用括号括起来：
+对于多行文字块，需要用括号括起来：
 
 ```
 ::jsig2::
@@ -25,5 +25,7 @@ http://www.computoredge.com
 http://www.computeredgebooks.com
 )
 ```
+
+### 普通数组/关联数组
 
 
