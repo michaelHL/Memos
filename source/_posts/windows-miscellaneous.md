@@ -2,7 +2,7 @@
 title: Windows 相关杂项
 date: 2019-04-24 10:09:17
 tags: Miscellaneous
-categories: Notes
+categories: Programming Language
 ---
 
 Windows 杂七杂八小结。
