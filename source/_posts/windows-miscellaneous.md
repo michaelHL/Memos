@@ -5,6 +5,10 @@ tags: Miscellaneous
 categories: Notes
 ---
 
+Windows 杂七杂八小结。
+
+<!-- more -->
+
 1. Windows 运行（Run）小结：
    - Windows 运行对话框实际为 `shell32.dll` 的资源，可通过如下方式调用：
      ```

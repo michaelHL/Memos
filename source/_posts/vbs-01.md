@@ -5,12 +5,9 @@ tags: VBS
 categories: Programming Language
 ---
 
-VBS 知识列表。
-
-<!-- more -->
-
 - 如果 VBS 文件中含有中文，文件编码一定要改为 `GBK` 或 `GB2312`
 - VBS 快捷方式特殊文件夹：
+  <!-- more -->
   | Special             | Folder Usage                                          |
   | :---                | :---                                                  |
   | `AllUsersDesktop`   | Desktop shortcuts for all users                       |
