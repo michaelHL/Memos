@@ -69,7 +69,7 @@ $$
 $$
 
 - 每个账户只能选择投资一种产品或无任何操作，即：
-  $$\sum_{j = 1} ^ k x_{ij} <= 1, \text{for each } \quad i \in \{1, 2, \ldots, m\}$$
+  $$\sum_{j = 1} ^ k x_{ij} <= 1, \quad \text{for each } i \in \{1, 2, \ldots, m\}$$
 - 投资总手数不能超过手持资金数（或恰好完全投资）：
   $$\sum_{i = 1}^m\sum_{j = 1}^k j \cdot x_{ij} = N$$
 - 每个账户对于每种产品的选择最多为 $1$：
