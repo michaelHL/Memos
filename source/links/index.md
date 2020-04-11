@@ -7,7 +7,6 @@ comments: false
 ### 个人站
 
 - [安安的博客][blog]
-- [算法专题][alg]
 
 ### 主题相关
 
@@ -17,7 +16,6 @@ comments: false
 
 
 [blog]: https://notes.shinemic.cn
-[alg]: https://alg.shinemic.cn
 [hexo]: https://hexo.io
 [maupassant]: https://github.com/tufu9441/maupassant-hexo
 [maupassant-doc]: https://www.haomwei.com/technology/maupassant-hexo.html
