@@ -4,6 +4,7 @@ date: 2020-03-05 08:48:52
 tags:
     - Stocks
     - Stagging
+categories: Research
 mathjax: true
 ---
 
