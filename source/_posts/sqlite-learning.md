@@ -65,11 +65,14 @@ toc: true
      -version             show SQLite version
      -vfs NAME            use NAME as the default VFS
   ```
+- `.show` 查看当前配置，如字段分隔符、记录分隔符、是否显示列名、数据库文件目录等
 - `.mode` 查看 / 设置显示格式，一般有：`ascii`、`csv`、`column`、`html`、`insert`、`line`、`list`、`quote`、`tabs`、`tcl` 几种格式
 - `.headers on|off` 显示 / 关闭字段名
 - `.tables` 显示当前数据库所有表名
-- `.indices [table name]` 显示指定表索引
-- `.schema [table name]` 显示所有 / 指定表或视图的 DDL 语句
+- `.indices [table_name]` 显示指定表索引
+- `.schema [table_name]` 显示所有 / 指定表或视图的 DDL 语句
+- `.output [file_name]` 指定输出文件
+- `.dump [table_name]` 将整个数据库（或某些表，`table_name` 支持 `LIKE` 风格）导出成 SQL 语句
 
 ## 函数
 
