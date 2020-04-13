@@ -71,8 +71,20 @@ toc: true
 - `.tables` 显示当前数据库所有表名
 - `.indices [table_name]` 显示指定表索引
 - `.schema [table_name]` 显示所有 / 指定表或视图的 DDL 语句
-- `.output [file_name]` 指定输出文件
+- `.output [file_name]` 指定输出文件，默认为标准输出 `stdout`
 - `.dump [table_name]` 将整个数据库（或某些表，`table_name` 支持 `LIKE` 风格）导出成 SQL 语句
+
+## 数据导入导出
+
+### 导出数据
+
+```dos
+sqlite> .output file.sql
+sqlite> .dump
+sqlite> .output stdout
+```
+
+### 导入数据
 
 ## 函数
 
