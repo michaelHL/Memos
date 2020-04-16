@@ -28,7 +28,7 @@ toc: true
   Enter ".help" for usage hints.
   Connected to a transient in-memory database.
   Use ".open FILENAME" to reopen on a persistent database.
-  sqlite> 
+  sqlite>
   ```
   另外命令行模式的 CLP 可以有如下参数：
   ```dos
@@ -65,6 +65,7 @@ toc: true
      -version             show SQLite version
      -vfs NAME            use NAME as the default VFS
   ```
+- `.prompt [value]` 设置当前命令行提示符
 - `.show` 查看当前配置，如字段分隔符、记录分隔符、是否显示列名、数据库文件目录等
 - `.mode` 查看 / 设置显示格式，一般有：`ascii`、`csv`、`column`、`html`、`insert`、`line`、`list`、`quote`、`tabs`、`tcl` 几种格式
 - `.headers on|off` 显示 / 关闭字段名
@@ -78,13 +79,50 @@ toc: true
 
 ### 导出数据
 
+**导出为 SQL 语句**
+
 ```dos
 sqlite> .output file.sql
 sqlite> .dump
 sqlite> .output stdout
 ```
 
+**导出为分隔符分隔文件**
+
+```dos
+sqlite> .mode csv
+sqlite> .output data.csv
+sqlite> select * from <table>
+sqlite> .output stdout
+```
+
+注：如需从该导出文件重新进行导入，应使用如上所示逗号分隔的格式。
+
 ### 导入数据
+
+**通过执行包含 SQL 语句的文件导入**
+
+```dos
+sqlite> .read <data.sql>
+```
+
+**通过导入分隔符分隔文件**
+
+如果 `<datafile>` 为逗号分隔格式文件，则可通过 `.import` 语句导入：
+
+```dos
+sqlite> .import <datafile> <table>
+```
+
+
+## 非交互命令处理
+
+- `sqlite3 test.db .dump`
+- `sqlite3 test.db .dump > data.sql`
+- `sqlite3 test.db "select * from test"`
+- `sqlite3 test.db < opt.sql`
+- `sqlite3 -init opt.sql test.db .exit`：首先新建 / 打开 `test.db`，再执行 `opt.sql` 中的命令，最后执行 `.exit`
+
 
 ## 函数
 
