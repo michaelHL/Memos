@@ -92,13 +92,13 @@ baidusitemap:
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo:
-    coding: git@git.coding.net:shinemic/memos.git
-  branch: master
-  ignore_hidden: false
-  keep_hidden_file: true
+# deploy:
+  # type: git
+  # repo:
+    # coding: git@git.coding.net:shinemic/memos.git
+  # branch: master
+  # ignore_hidden: false
+  # keep_hidden_file: true
 
 include:
   - src/**/.*
