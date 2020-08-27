@@ -178,7 +178,7 @@ if (Character.isLowSurrogate(greeting.charAt(index)))
 {% codeblock lang:Java Test.java %}
 public class Test {
     public static void main(String[] args) {
-        String greeting = "Hello!😁";
+        String greeting = "Hello😁😁";
 
         // traverse through a string
         System.out.println("Iteration:");
@@ -212,16 +212,16 @@ Iteration:
  2 | 108 -> l
  3 | 108 -> l
  4 | 111 -> o
- 5 | 33 -> !
- 6 | 128513 -> 😁
+ 5 | 128513 -> 😁
+ 7 | 128513 -> 😁
 Reverse:
- 6 | 128513 -> 😁
- 5 | 33 -> !
+ 7 | 128513 -> 😁
+ 5 | 128513 -> 😁
  4 | 111 -> o
  3 | 108 -> l
  2 | 108 -> l
  1 | 101 -> e
  0 | 72 -> H
-Hello!😁
+Hello😁😁
 */
 {% endcodeblock %}
