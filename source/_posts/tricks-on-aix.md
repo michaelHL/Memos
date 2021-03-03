@@ -6,6 +6,10 @@ tags:
 categories: Wiki
 ---
 
+AIX 系统相关技巧。
+
+<!-- more -->
+
 1. 针对终端中文字符乱码，可将字符集设置为 UTF-8（并不推荐改成狭隘的 `GB` 系列编码），并将系统 `locale` 设为中文：
    ```Bash
    export LANG=ZH_CN
