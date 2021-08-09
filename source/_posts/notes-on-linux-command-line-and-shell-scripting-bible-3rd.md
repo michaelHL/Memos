@@ -7,6 +7,10 @@ tags:
 categories: Wiki
 ---
 
+Linux 经典书籍学习笔记。
+
+<!-- more -->
+
 ## Linux 文件系统层级标准（Filesystem Hierarchy Standard, FHS）
 
 常见的 Linux 目录名称：
