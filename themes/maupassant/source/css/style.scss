@@ -284,6 +284,11 @@ div {
         pre code {
             padding: 0 2em;
         }
+        code, kbd, pre, samp {
+            font-size: 14px;
+            font-family: PT Mono, monospace, consolas;
+            font-size: 1em;
+        }
         p {
             margin: 2px 5px;
             code {
@@ -447,7 +452,7 @@ div {
     padding-bottom: .8em;
     h2 {
         margin: 0;
-        font: normal 25px / 1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+        font: normal 25px / 1.1 Merriweather, "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
     }
     .date {
         padding-right: .7em;

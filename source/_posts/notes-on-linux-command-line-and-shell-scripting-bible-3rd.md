@@ -4,6 +4,7 @@ date: 2021-03-02 21:34:37
 tags:
     - Linux
     - Shell
+toc: true
 categories: Wiki
 ---
 
